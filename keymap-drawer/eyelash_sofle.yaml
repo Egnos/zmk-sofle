@@ -91,7 +91,7 @@ layers:
   - $$mdi:arrow-up-bold$$
   - HOME
   - {t: '-', s: _}
-  - $$mdi:backspace-reverse-outline$$
+  - ^
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
