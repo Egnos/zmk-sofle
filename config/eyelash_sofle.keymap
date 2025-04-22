@@ -46,7 +46,7 @@
 &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6    &kp UP_ARROW    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp N0     &kp MINUS   &kp BACKSPACE
 &kp TAB       &kp Q           &kp W         &kp E         &kp R         &kp T           &kp DOWN        &kp Y         &kp U         &kp I          &kp O      &kp P       &kp DEL
 &kp CAPS      &kp A           &kp S         &kp D         &kp F         &kp G           &kp LEFT_ARROW  &kp H         &kp J         &kp K          &kp L      &kp SEMI    &kp APOS
-&kp LCTRL     &kp Z           &kp X         &kp C         &kp V         &kp B           &kp RIGHT       &kp B         &kp N         &kp M          &kp COMMA  &kp COLON   &kp RIGHT_SHIFT
+&kp LCTRL     &kp Z           &kp X         &kp C         &kp V         &mo 2           &kp RIGHT       &kp B         &kp N         &kp M          &kp COMMA  &kp COLON   &kp RIGHT_SHIFT
 &kp C_MUTE    &kp LEFT_SHIFT  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE     &mo 1           &mkp LCLK       &kp ENTER     &kp SPACE     &kp RIGHT_ALT  &mo 2      &kp ESCAPE
             >;
 
@@ -69,11 +69,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp F9     &kp F10      &trans
-&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
-&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
-&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
-&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
+&kp TILDE  &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10       &trans
+&trans     &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &kp UNDER     &kp PLUS
+&trans     &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS     &kp PLUS      &kp RBRC
+&trans     &sys_reset    &trans          &bootloader   &trans        &trans          &mmv MOVE_RIGHT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS         &kp KP_ENTER  &trans
+&trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans           &kp KP_NUMBER_0  &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER
             >;
 
             sensor-bindings = <&scroll_encoder>;
