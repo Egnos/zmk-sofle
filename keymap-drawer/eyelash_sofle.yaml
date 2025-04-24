@@ -87,9 +87,9 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - END
+  - PG UP
   - $$mdi:arrow-up-bold$$
-  - HOME
+  - PgDn
   - {t: '-', s: _}
   - ^
   - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
